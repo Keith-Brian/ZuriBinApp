@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zuri</string>
+    <string name="zuriBin">Z-U-R-I-B-I-N</string>
+    <string name="signUp">Create Account</string>
+    <string name="signIn">Sign In</string>
+
+    <string name="have_an_account">Have an account?</string>
+</resources>

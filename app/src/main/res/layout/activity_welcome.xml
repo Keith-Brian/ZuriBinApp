@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".welcomeActivity">
+
+    <ImageView
+        android:id="@+id/logoWelcome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/imgzuribinlogo"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignup_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/kellyGreen"
+        android:text="@string/signUp"
+        android:textAllCaps="true"
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignin_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignup_welcome"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/kellyGreen"
+        android:text="@string/signIn"
+        android:textAllCaps="true"
+        app:cornerRadius="4dp" />
+
+
+</RelativeLayout>
